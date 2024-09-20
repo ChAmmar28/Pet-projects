@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExchangerPage</title>
+    <link rel="icon" type="image/x-icon" href="/assets/currency-exchange.svg" />
+    <link rel="stylesheet" href="/css/currencyRates.css" />
+  </head>
+  <div class="containerB">
+    <header>
+      <img src="/assets/currency-exchange.svg" alt="ExchangerLogo" />
+      <a href="./index.html">Currency rates</a>
+    </header>
+    <div class="inputWrap">
+      <div>
+        <select id="selectA">
+          fromCurrency
+        </select>
+        <input type="text" placeholder="value" class="inputContainer" />
+        <select id="selectB">
+          toCurrency
+        </select>
+      </div>
+      <p class="result"></p>
+    </div>
+  </div>
+  <body>
+    <script type="module" src="/exchange.js"></script>
+  </body>
+</html>
